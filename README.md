@@ -1,56 +1,69 @@
-# Byte_me
-TGPCET-Hackathon
+# Welcome to your Lovable project
 
-   Secure Digital Voting System (TGPDS22)
-A blockchain-based voting system designed to ensure secure, transparent, and tamper-proof elections. By leveraging blockchain technology, this system reduces the risk of fraud and increases voter trust through immutable vote recording, secure authentication, and real-time result verification.
+## Project info
 
-Overview
-The Secure Digital Voting System (TGPDS22) is a cutting-edge solution that addresses the vulnerabilities of traditional voting systems, such as fraud, lack of transparency, and declining public trust. By utilizing blockchain technology, this system provides a decentralized, reliable, and verifiable platform for conducting elections. Every vote is securely recorded, authenticated, and tallied in real-time, ensuring that the election process is both tamper-proof and transparent.
+**URL**: https://lovable.dev/projects/eacf7f3f-687b-46c2-af47-af457926da26
 
-This system is ideal for governments, organizations, or communities seeking a modern, trustworthy approach to elections. It restores confidence in democratic processes by making voting more secure, accessible, and auditable.
+## How can I edit this code?
 
-**Key Features**
--Immutable and Transparent Vote Recording
- Every vote is permanently recorded on the blockchain as a unique transaction. Once cast, it cannot be altered or deleted, ensuring the integrity of the election. The blockchain ledger is transparent, 
- allowing anyone to audit the process while maintaining voter anonymity.
--Secure Voter Authentication
-Voters are authenticated using blockchain-based credentials, ensuring that only eligible individuals can participate. This prevents impersonation, duplicate voting, and unauthorized access, safeguarding the election's legitimacy.
--Real-Time Vote Counting and Result Verification
-Votes are tallied instantly as they are cast, providing real-time updates on election progress. Results are stored on the blockchain, enabling independent verification by voters, officials, or third-party observers.
-*Why This Matters
-Traditional voting systems often suffer from critical flaws:
+There are several ways of editing your application.
 
-<<<<Fraud and Tampering: Paper ballots and centralized digital systems are vulnerable to manipulation.
-Lack of Transparency: Voters and officials cannot easily verify the accuracy of results.
-Declining Trust: High-profile election controversies erode public confidence in democratic processes.
-The Secure Digital Voting System solves these problems by:
+**Use Lovable**
 
-                  Ensuring every vote is immutable and tamper-proof.
-                  Providing a transparent, auditable ledger for public verification.
-                  Securing voter identities and preventing unauthorized access.
-This system restores trust in elections by making the process fraud-resistant, openly verifiable, and accessible to all.>>>>
+Simply visit the [Lovable Project](https://lovable.dev/projects/eacf7f3f-687b-46c2-af47-af457926da26) and start prompting.
 
-**How It Works**
-The system leverages blockchain technology to create a secure and transparent voting process:
+Changes made via Lovable will be committed automatically to this repo.
 
-*Voter Registration and Authentication
-Eligible voters are issued blockchain-based credentials (e.g., cryptographic keys or tokens) that verify their identity without revealing personal information.
-*Casting a Vote
-Voters use their credentials to cast votes through a user-friendly interface. Each vote is recorded as a transaction on the blockchain, linked to the voter’s unique credential but anonymized to protect privacy.
-*Vote Recording and Tallying
-Votes are stored on the blockchain, where they are immutable and timestamped. Smart contracts (or equivalent blockchain logic) automatically tally votes in real-time as they are cast.
-*Result Verification
-The blockchain ledger is publicly accessible, allowing anyone to verify the total vote count and ensure the election’s integrity. Voters can also confirm that their vote was recorded correctly using their unique transaction ID.
-*System Architecture
-The system is built on a decentralized blockchain network, ensuring no single point of control or failure. Key components include:
+**Use your preferred IDE**
 
-#Blockchain Network
-      << -A distributed ledger (e.g., Ethereum, Hyperledger, or a custom blockchain) that records all votes and transactions securely.>>
-#Smart Contracts
-      << -Self-executing contracts that manage the voting logic, including voter eligibility, vote recording, and result tallying.>>
-#User Interfaces
-      <<-Voter Interface: A web or mobile application where voters authenticate, cast votes, and verify their participation.>>
-#Admin Interface
-      <<A dashboard for election officials to manage the election setup, monitor progress, and finalize results.>>
-#Identity Management
-      <<-A decentralized identity system (e.g., based on DIDs or blockchain wallets) to securely authenticate voters without centralized control.>>
+If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+
+The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+
+Follow these steps:
+
+```sh
+# Step 1: Clone the repository using the project's Git URL.
+git clone <YOUR_GIT_URL>
+
+# Step 2: Navigate to the project directory.
+cd <YOUR_PROJECT_NAME>
+
+# Step 3: Install the necessary dependencies.
+npm i
+
+# Step 4: Start the development server with auto-reloading and an instant preview.
+npm run dev
+```
+
+**Edit a file directly in GitHub**
+
+- Navigate to the desired file(s).
+- Click the "Edit" button (pencil icon) at the top right of the file view.
+- Make your changes and commit the changes.
+
+**Use GitHub Codespaces**
+
+- Navigate to the main page of your repository.
+- Click on the "Code" button (green button) near the top right.
+- Select the "Codespaces" tab.
+- Click on "New codespace" to launch a new Codespace environment.
+- Edit files directly within the Codespace and commit and push your changes once you're done.
+
+## What technologies are used for this project?
+
+This project is built with .
+
+- Vite
+- TypeScript
+- React
+- shadcn-ui
+- Tailwind CSS
+
+## How can I deploy this project?
+
+Simply open [Lovable](https://lovable.dev/projects/eacf7f3f-687b-46c2-af47-af457926da26) and click on Share -> Publish.
+
+## I want to use a custom domain - is that possible?
+
+We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
