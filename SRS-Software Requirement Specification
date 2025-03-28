@@ -1,0 +1,52 @@
+Software Requirements Specification (SRS)
+Secure Digital Voting System (TGPDS22)
+Purpose
+The Secure Digital Voting System (TGPDS22) is a blockchain-based platform designed to ensure secure, transparent, and tamper-proof elections. It reduces fraud and increases voter trust through immutable vote recording, secure authentication, and real-time result verification.
+
+Scope
+The system targets governments, organizations, and communities, providing a decentralized, auditable voting solution that addresses traditional voting flaws like fraud and lack of transparency.
+
+Functional Requirements
+Voter Registration: Register eligible voters with unique blockchain credentials.
+Authentication: Verify voter identity securely to prevent unauthorized access.
+Vote Casting: Record votes as immutable blockchain transactions via a user-friendly interface.
+Vote Tallying: Automatically tally votes in real-time using smart contracts.
+Result Verification: Enable public verification of results via a transparent blockchain ledger.
+Election Management: Allow admins to set up, monitor, and close elections.
+Security: Ensure anonymity, prevent double-voting, and protect against fraud.
+Non-Functional Requirements
+Security: Use encryption and cryptography to safeguard data and votes.
+Scalability: Handle large voter volumes efficiently.
+Usability: Provide an intuitive interface for all users.
+Availability: Operate 24/7 during voting periods (e.g., as of March 28, 2025).
+Transparency: Offer a publicly auditable process.
+Performance: Deliver real-time updates with minimal delays.
+Maintainability: Use modular design for easy updates.
+Assumptions
+Uses a blockchain platform (e.g., Ethereum or Hyperledger).
+Requires internet access for voters and admins.
+Complies with relevant voting laws.
+Constraints
+Votes are immutable once recorded.
+Blockchain transaction costs and scalability may limit performance.
+Must balance voter anonymity with verification needs.
+External Interfaces
+User Interfaces: Web/mobile app for voters, admin dashboard.
+Blockchain API: For transaction recording and retrieval (e.g., Web3.js).
+Identity System: For voter credential issuance.
+System Requirements
+Software: Node.js, blockchain client (e.g., Geth), front-end framework (e.g., React).
+Hardware: Servers for app and blockchain nodes, client devices for users.
+Network: Secure internet with HTTPS/SSL.
+Acceptance Criteria
+Successful voter registration and authentication.
+Accurate, tamper-proof vote recording and real-time tallying.
+Publicly verifiable results with voter confirmation.
+No security breaches or performance issues under load.
+Risks and Mitigation
+Security Breach: Audit and test rigorously.
+Scalability: Optimize blockchain for high loads.
+Usability: Test and refine UI with user feedback.
+Compliance: Consult legal experts.
+Conclusion
+This SRS outlines a robust framework for TGPDS22, ensuring a secure, transparent, and trustworthy voting system using blockchain technology.
