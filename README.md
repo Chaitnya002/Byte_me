@@ -44,13 +44,13 @@ The blockchain ledger is publicly accessible, allowing anyone to verify the tota
 *System Architecture
 The system is built on a decentralized blockchain network, ensuring no single point of control or failure. Key components include:
 
-
 #Blockchain Network
- -A distributed ledger (e.g., Ethereum, Hyperledger, or a custom blockchain) that records all votes and transactions securely.
+      << -A distributed ledger (e.g., Ethereum, Hyperledger, or a custom blockchain) that records all votes and transactions securely.>>
 #Smart Contracts
- -Self-executing contracts that manage the voting logic, including voter eligibility, vote recording, and result tallying.
+      << -Self-executing contracts that manage the voting logic, including voter eligibility, vote recording, and result tallying.>>
 #User Interfaces
- -Voter Interface: A web or mobile application where voters authenticate, cast votes, and verify their participation.
-Admin Interface: A dashboard for election officials to manage the election setup, monitor progress, and finalize results.
+      <<-Voter Interface: A web or mobile application where voters authenticate, cast votes, and verify their participation.>>
+#Admin Interface
+      <<A dashboard for election officials to manage the election setup, monitor progress, and finalize results.>>
 #Identity Management
- -A decentralized identity system (e.g., based on DIDs or blockchain wallets) to securely authenticate voters without centralized control.
+      <<-A decentralized identity system (e.g., based on DIDs or blockchain wallets) to securely authenticate voters without centralized control.>>
