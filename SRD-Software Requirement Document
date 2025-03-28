@@ -1,0 +1,63 @@
+Software Requirements Document (SRD)
+Secure Digital Voting System (TGPDS22)
+1. Introduction
+1.1 Purpose
+The Secure Digital Voting System (TGPDS22) is a blockchain-based solution to conduct secure, transparent, and tamper-proof elections. It aims to eliminate fraud, enhance transparency, and boost voter trust by leveraging blockchain technology.
+
+1.2 Scope
+This system serves governments, organizations, and communities, offering a decentralized platform for elections with features like immutable vote recording, secure authentication, and real-time result verification. It addresses vulnerabilities in traditional voting systems, such as manipulation and lack of auditability.
+
+1.3 Definitions
+Blockchain: A decentralized ledger for secure, immutable data storage.
+Smart Contracts: Self-executing code on the blockchain for vote tallying.
+Credential: A blockchain-based token or key for voter authentication.
+2. Overall Description
+2.1 User Needs
+Voters: Securely cast votes, verify participation, and trust results.
+Administrators: Manage elections, monitor progress, and ensure integrity.
+Public/Observers: Verify election outcomes transparently.
+2.2 Assumptions
+A blockchain platform (e.g., Ethereum, Hyperledger) is available.
+Users have internet access.
+Legal compliance with voting regulations is required.
+2.3 Constraints
+Votes are unchangeable once recorded on the blockchain.
+Scalability depends on blockchain transaction capacity.
+Voter anonymity must be balanced with verification.
+3. System Requirements
+3.1 Functional Requirements
+Registration: Issue unique blockchain credentials to eligible voters.
+Authentication: Verify voter identity to prevent unauthorized access.
+Voting: Record votes as immutable blockchain transactions via an interface.
+Tallying: Compute vote totals in real-time using smart contracts.
+Verification: Provide a public ledger for result validation; allow voters to confirm their votes.
+Management: Enable admins to configure, monitor, and finalize elections.
+3.2 Non-Functional Requirements
+Security: Encrypt data and use cryptography to prevent tampering.
+Performance: Support real-time updates with minimal latency.
+Scalability: Manage large voter volumes efficiently.
+Usability: Offer an intuitive interface for all users.
+Availability: Ensure uptime during voting periods (e.g., March 28, 2025).
+Transparency: Make the process auditable by all stakeholders.
+3.3 System Interfaces
+User Interface: Web/mobile app for voters; dashboard for admins.
+Blockchain Interface: API (e.g., Web3.js) for transaction handling.
+Identity Interface: System for issuing and verifying credentials.
+3.4 Hardware and Software Requirements
+Hardware: Servers for blockchain nodes and app hosting; client devices (e.g., phones, PCs).
+Software: Node.js, blockchain client (e.g., Geth), front-end tools (e.g., React).
+4. Design Constraints
+Immutability: No vote edits post-recording.
+Cost: Manage blockchain transaction fees (if applicable).
+Privacy: Ensure voter anonymity while enabling verification.
+5. Acceptance Criteria
+Voters can register, authenticate, and vote securely.
+Votes are recorded accurately and tallied in real-time.
+Results are verifiable by the public and voters.
+System remains secure and operational under load.
+6. Risks
+Security: Hacking risks; mitigated by audits and encryption.
+Scalability: Performance limits; mitigated by optimization.
+Adoption: User resistance; mitigated by simple design and support.
+7. Conclusion
+The SRD defines a blockchain-based voting system that ensures security, transparency, and trust. It provides a clear roadmap for development, meeting the needs of voters, admins, and observers.
